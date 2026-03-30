@@ -1,0 +1,67 @@
+:root {
+    /* comment root is the basic building block of css */
+    --primary: #2563eb;
+    --bg: #f8fafc;
+    --text: #1e293b;
+    --card-bg: #ffffff;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--bg);
+    /* background color from root */
+    color: var(--text);
+    margin: 0;
+    padding: 2rem;
+    /* padding 2rem means 2 times padding the font size of the root */
+    display: flex;
+    /* flexbox */
+    justify-content: center;
+    /* vertical centering */
+    flex-direction: column;
+    /* arranges flex items vertically */
+    align-items: center;
+    /* horizontal centering */
+    min-height: 100vh;
+    /* min-height 100vh means 100 times the height of the viewport */
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+iframe:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--primary);
+    margin-top: 0;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 1rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    background: #eff6ff;
+    border-left: 4px solid var(--primary);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+}
+
+/* align-items: center: This handles the horizontal (left-to-right) centering.
+justify-content: center: This handles the vertical (top-to-bottom) centering.*/

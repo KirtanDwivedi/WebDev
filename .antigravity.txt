@@ -1,0 +1,14 @@
+Inline Command (best one)
+Ctrl + I
+
+Quick Agent toggle
+Ctrl + E
+
+New agent thread
+Ctrl + Shift + L
+Fresh conversation without old context
+
+use Ctrl + L sometimes, type @selection before your prompt — it forces the agent to ignore the rest of the document.
+
+
+
