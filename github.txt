@@ -1,0 +1,39 @@
+## SSH key- To authenticate between local machine and github account
+## GPG key- To authenticate commits
+
+requirement.txt in python and package.json in javascript
+pip freeze > requirements.txt // to create requirement.txt
+requirement.txt // to run - pip install -r requirement.txt
+.gitignore-- .env and venv/ (python) or node_module/ (javascript)
+
+###
+# .env
+OPENAI_APIKEY=sk-your-actual-api-key-here
+
+and in python 
+import os
+from dotenv import load_dotenv
+from openai import OpenAI
+
+# Load variables from the .env file into the environment
+load_dotenv()
+
+# Access the variable by the exact name you used in .env
+api_key = os.getenv("OPENAI_APIKEY")
+
+# Initialize the OpenAI client with your key
+client = OpenAI(api_key=api_key)
+
+# Example usage for your Pokemon story app
+# response = client.images.generate(prompt="A fire-type Pokemon in a snowy forest...")
+###
+
+###
+and in javascript
+const dotenv = require('dotenv');
+dotenv.config();
+
+// Access the key using process.env
+const apiKey = process.env.OPENAI_APIKEY;
+
+console.log("Your API Key is:", apiKey);

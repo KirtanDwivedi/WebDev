@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Project - Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Project Dashboard</h1>
+        <div class="info">
+            <strong>Resource Integrated:</strong> <code>1.html</code> has been embedded below using an
+            <code>&lt;iframe&gt;</code> element.
+        </div>
+
+        <iframe src="1.html" title="Sub-page 1.html Container"></iframe>
+
+        <h1 id="count-el" style="margin-top: 10px; margin-bottom: 10px;">0</h1>
+        <button id="increment-btn" onclick="increment()">Upvote</button>
+        <script src="index.js"></script>
+
+        <footer style="margin-top: 2rem; text-align: center; color: #64748b; font-size: 0.9rem;">
+            &copy; 2026 Web Dev Project Hub
+        </footer>
+    </div>
+    <div class="pages">
+        <button><a href="2.html">Calculator</a></button>
+        <button><a href="3.html">Bookmarks</a></button>
+    </div>
+</body>
+
+</html>
+
+<!-- 
+iframe- inline frame or nested browser window
+
+&copy; for copyright
+&lt; for <
+&gt; for >
+&amp; for &
+&quot; for "
+&apos; for '
+ -->
