@@ -14,10 +14,7 @@ This repository is a collection of various web development projects and exercise
 | **WebDev6** | Fullstack Applications | JS, Express |
 | **WebDev7** | Frontend Frameworks | React |
 | **WebDev8** | Modern Web Tools | Vite, React |
-<<<<<<< HEAD
-=======
 | **WebDev9** | Advanced Backend & Modern UI | Node.js, TS, Tailwind |
->>>>>>> 731b580 (first commit)
 
 ## 🛠️ Getting Started
 
