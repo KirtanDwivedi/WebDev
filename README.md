@@ -14,6 +14,10 @@ This repository is a collection of various web development projects and exercise
 | **WebDev6** | Fullstack Applications | JS, Express |
 | **WebDev7** | Frontend Frameworks | React |
 | **WebDev8** | Modern Web Tools | Vite, React |
+<<<<<<< HEAD
+=======
+| **WebDev9** | Advanced Backend & Modern UI | Node.js, TS, Tailwind |
+>>>>>>> 731b580 (first commit)
 
 ## 🛠️ Getting Started
 
@@ -44,4 +48,8 @@ To explore any of these projects locally:
 - GitHub: [@KirtanDwivedi](https://github.com/KirtanDwivedi)
 
 ---
+<<<<<<< HEAD
 *Created as part of my Web Development learning journey.*
+=======
+*Created as part of my Web Development learning journey.*
+>>>>>>> 731b580 (first commit)
