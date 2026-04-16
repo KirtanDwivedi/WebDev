@@ -43,10 +43,6 @@ To explore any of these projects locally:
 ## 📝 Author
 
 **Kirtan Dwivedi**
-- GitHub: [@KirtanDwivedi](https://github.com/KirtanDwivedi)
-
----
-<<<<<<< HEAD
 *Created as part of my Web Development learning journey.*
 =======
 *Created as part of my Web Development learning journey.*
