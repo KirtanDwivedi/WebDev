@@ -43,7 +43,5 @@ To explore any of these projects locally:
 ## 📝 Author
 
 **Kirtan Dwivedi**
-*Created as part of my Web Development learning journey.*
 =======
 *Created as part of my Web Development learning journey.*
->>>>>>> 731b580 (first commit)
