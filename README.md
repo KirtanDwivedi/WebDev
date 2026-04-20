@@ -15,7 +15,8 @@ This repository is a collection of various web development projects and exercise
 | **WebDev7** | Frontend Frameworks | React |
 | **WebDev8** | Modern Web Tools | Vite, React |
 | **WebDev9** | Advanced Backend & Modern UI | Node.js, TS, Tailwind |
-| **flask** | Basic RestAPIs |
+| **flask** | Basic RestAPIs | python|
+| **go-lang** | API calling+ Databse+ Authentication| golang, golang(basics)|
 
 ## 🛠️ Getting Started
 
